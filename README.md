@@ -58,7 +58,7 @@ def reconstruct_patch(img_arr, org_img_size, stride=128, size=128):
         images_list.append(img_bg)
     return np.stack(images_list)
 ```
-
+---
 ## 예시: 한 개의 3D 데이터 (256,256,256)
 ---
 ``` python
