@@ -132,10 +132,6 @@ patched cube shape :  (32, 128, 128, 128)
 
 -------------- reconstruct_patch --------------
 
-4 big cubes shape :  (4, 256, 256, 256)
-
-patched cube shape :  (32, 128, 128, 128)
-
 All reconstructed data shape :  (4, 256, 256, 256)
 
 -------------- done --------------  
