@@ -139,3 +139,7 @@ All reconstructed data shape :  (4, 256, 256, 256)
 -------------- done --------------  
 
 ---
+#### References  
+
+   Huge shoutout goes to karolzak for creating the backbones of this repository:
+  * [keras-unet](https://github.com/karolzak/keras-unet.git)
