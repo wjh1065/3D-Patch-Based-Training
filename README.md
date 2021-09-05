@@ -129,8 +129,6 @@ print('-------------- done --------------')
 
 patched cube shape :  (32, 128, 128, 128)
 
--------------- done --------------
-
 -------------- reconstruct_patch --------------
 
 All reconstructed data shape :  (4, 256, 256, 256)
