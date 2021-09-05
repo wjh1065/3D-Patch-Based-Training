@@ -60,6 +60,7 @@ def reconstruct_patch(img_arr, org_img_size, stride=128, size=128):
 ```
 ---
 ## 예시: 한 개의 3D 데이터 (256,256,256)
+![ex_screenshot](./img/example.png)
 ---
 ``` python
 big_cube = np.random.rand(256,256,256)
@@ -137,5 +138,3 @@ All reconstructed data shape :  (4, 256, 256, 256)
 -------------- done --------------  
 
 ---
-
-![ex_screenshot](./img/example.png)
