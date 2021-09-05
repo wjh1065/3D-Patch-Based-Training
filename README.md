@@ -137,3 +137,5 @@ All reconstructed data shape :  (4, 256, 256, 256)
 -------------- done --------------  
 
 ---
+
+![ex_screenshot](./img/example.png)
