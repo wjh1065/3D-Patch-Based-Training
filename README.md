@@ -110,7 +110,8 @@ def reconstructed_patches_data(data):
         #print('i th : ', i)
         #print(data[i].shape)
         print(data[8 * i : 8 * i + 8].shape)
-        reconstructed = np.squeeze(reconstruct_patch(img_arr=np.expand_dims(data[8 * i : 8 * i + 8],axis=-1),                                                   org_img_size=(256,256,256), stride=128))
+        reconstructed = np.squeeze(reconstruct_patch(img_arr=np.expand_dims(data[8 * i : 8 * i + 8],axis=-1),
+        org_img_size=(256,256,256), stride=128))
         print('reconstructed data shape', reconstructed.shape)
         patches.append(np.expand_dims(reconstructed,axis=0))
     patches = np.vstack(patches)
